@@ -23,12 +23,16 @@ GitHub mostrará la URL pública cuando finalice el despliegue.
 
 ## Personalización pendiente
 
-El formulario prepara el texto de la consulta y abre la aplicación de correo. Como el documento no aporta un contacto comercial confirmado, el destinatario queda vacío. Antes de publicar, agregá el correo después de `mailto:` en `assets/js/app.js`, o convertí la acción a WhatsApp cuando exista un número comercial.
+El contenido sigue el documento del proyecto de egreso (misión, servicios, rutina, cuotas, beneficios, localización e historia de la Casa del Niño). El logo de `assets/img/` se extrajo de ese documento.
+
+- **Contacto:** el documento no incluye un correo ni un teléfono comercial, así que el formulario abre la aplicación de correo sin destinatario. Agregá el correo después de `mailto:` en `assets/js/app.js`, o cambiá la acción a WhatsApp cuando exista un número.
+- **Días de atención:** el documento indica el horario (5:30 a 24:00) pero no los días. Si corresponde, agregalos en la sección de horarios.
 
 ## Estructura
 
 - `index.html`: contenido y estructura principal.
 - `assets/css/styles.css`: diseño responsive.
 - `assets/js/app.js`: navegación, animaciones y formulario.
+- `assets/img/`: logo y favicon.
 - `404.html`: página de error compatible con GitHub Pages.
 - `.nojekyll`: evita procesamiento innecesario de Jekyll.

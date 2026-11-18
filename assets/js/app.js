@@ -37,7 +37,9 @@ document.getElementById('contact-form').addEventListener('submit', event => {
     `Hola, soy ${data.get('nombre')}.\n\n` +
     `Teléfono: ${data.get('telefono')}\n` +
     `Edad del niño/a: ${data.get('edad')}\n` +
-    `Horario: ${data.get('horario')}\n` +
+    `Horas por día: ${data.get('horas')}\n` +
+    `Turno: ${data.get('turno')}\n` +
+    `Traslado escolar: ${data.get('traslado') ? 'Sí' : 'No'}\n` +
     `Mensaje: ${data.get('mensaje') || 'Sin mensaje adicional'}\n\n` +
     'Quisiera recibir información sobre disponibilidad y costos.'
   );
